@@ -394,11 +394,6 @@ python menu.py  # Menu chính
 - [OpenCV Documentation](https://docs.opencv.org/)
 - [TensorFlow Documentation](https://www.tensorflow.org/)
 
-## 👤 Tác Giả
-
-**Huỳnh Ngọc Thắng**  
-HCMUTE - Đại học Sư phạm Kỹ thuật TP.HCM
-
 ## 📄 License
 
 Xem file [LICENSE](LICENSE) để biết thêm chi tiết.
