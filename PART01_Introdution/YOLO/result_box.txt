@@ -1,0 +1,308 @@
+Speed: 4.9ms preprocess, 96.4ms inference, 7.8ms postprocess per image at shape (1, 3, 384, 640)
+Results saved to D:\YOLO\HuynhNgocThang_YoloObjectDetectionInBadminton\runs\detect\predict
+Prediction finished in 290.07 seconds
+[ultralytics.engine.results.Results object with attributes:
+
+boxes: ultralytics.engine.results.Boxes object
+keypoints: None
+masks: None
+names: {0: 'person', 1: 'bicycle', 2: 'car', 3: 'motorcycle', 4: 'airplane', 5: 'bus', 6: 'train', 7: 'truck', 8: 'boat', 9: 'traffic light', 10: 'fire hydrant', 11: 'stop sign', 12: 'parking meter', 13: 'bench', 14: 'bird', 15: 'cat', 16: 'dog', 17: 'horse', 18: 'sheep', 19: 'cow', 20: 'elephant', 21: 'bear', 22: 'zebra', 23: 'giraffe', 24: 'backpack', 25: 'umbrella', 26: 'handbag', 27: 'tie', 28: 'suitcase', 29: 'frisbee', 30: 'skis', 31: 'snowboard', 32: 'sports ball', 33: 'kite', 34: 'baseball bat', 35: 'baseball glove', 36: 'skateboard', 37: 'surfboard', 38: 'tennis racket', 39: 'bottle', 40: 'wine glass', 41: 'cup', 42: 'fork', 43: 'knife', 44: 'spoon', 45: 'bowl', 46: 'banana', 47: 'apple', 48: 'sandwich', 49: 'orange', 50: 'broccoli', 51: 'carrot', 52: 'hot dog', 53: 'pizza', 54: 'donut', 55: 'cake', 56: 'chair', 57: 'couch', 58: 'potted plant', 59: 'bed', 60: 'dining table', 61: 'toilet', 62: 'tv', 63: 'laptop', 64: 'mouse', 65: 'remote', 66: 'keyboard', 67: 'cell phone', 68: 'microwave', 69: 'oven', 70: 'toaster', 71: 'sink', 72: 'refrigerator', 73: 'book', 74: 'clock', 75: 'vase', 76: 'scissors', 77: 'teddy bear', 78: 'hair drier', 79: 'toothbrush'}
+obb: None
+orig_img: array([[[ 22,  16,  19],
+        [ 21,  15,  18],
+        [ 22,  16,  19],
+        ...,
+        [ 23,   9,   7],
+        [ 23,   9,   7],
+        [ 23,   9,   7]],
+
+       [[ 21,  15,  18],
+        [ 20,  14,  17],
+        [ 21,  15,  18],
+        ...,
+        [ 23,   9,   7],
+        [ 23,   9,   7],
+        [ 23,   9,   7]],
+
+       [[ 20,  14,  17],
+        [ 19,  13,  16],
+        [ 20,  14,  17],
+        ...,
+        [ 23,   9,   7],
+        [ 23,   9,   7],
+        [ 23,   9,   7]],
+
+       ...,
+
+       [[107, 131,  68],
+        [107, 131,  68],
+        [107, 131,  68],
+        ...,
+        [ 85, 106,  51],
+        [ 85, 106,  51],
+        [ 85, 106,  51]],
+
+       [[107, 131,  68],
+        [107, 131,  68],
+        [107, 131,  68],
+        ...,
+        [ 85, 106,  51],
+        [ 85, 106,  51],
+        [ 85, 106,  51]],
+
+       [[107, 131,  68],
+        [107, 131,  68],
+        [107, 131,  68],
+        ...,
+        [ 85, 106,  51],
+        [ 85, 106,  51],
+        [ 85, 106,  51]]], shape=(720, 1280, 3), dtype=uint8)
+orig_shape: (720, 1280)
+path: 'D:\\YOLO\\HuynhNgocThang_YoloObjectDetectionInBadminton\\PART01_Introdution\\RawData\\ShortBadmintonVideo_30fps.mp4'
+probs: None
+save_dir: 'D:\\YOLO\\HuynhNgocThang_YoloObjectDetectionInBadminton\\runs\\detect\\predict'    
+speed: {'preprocess': 139.50769999974, 'inference': 194.99379999979283, 'postprocess': 15.84050000019488}, ultralytics.engine.results.Results object with attributes:
+
+boxes: ultralytics.engine.results.Boxes object
+keypoints: None
+masks: None
+names: {0: 'person', 1: 'bicycle', 2: 'car', 3: 'motorcycle', 4: 'airplane', 5: 'bus', 6: 'train', 7: 'truck', 8: 'boat', 9: 'traffic light', 10: 'fire hydrant', 11: 'stop sign', 12: 'parking meter', 13: 'bench', 14: 'bird', 15: 'cat', 16: 'dog', 17: 'horse', 18: 'sheep', 19: 'cow', 20: 'elephant', 21: 'bear', 22: 'zebra', 23: 'giraffe', 24: 'backpack', 25: 'umbrella', 26: 'handbag', 27: 'tie', 28: 'suitcase', 29: 'frisbee', 30: 'skis', 31: 'snowboard', 32: 'sports ball', 33: 'kite', 34: 'baseball bat', 35: 'baseball glove', 36: 'skateboard', 37: 'surfboard', 38: 'tennis racket', 39: 'bottle', 40: 'wine glass', 41: 'cup', 42: 'fork', 43: 'knife', 44: 'spoon', 45: 'bowl', 46: 'banana', 47: 'apple', 48: 'sandwich', 49: 'orange', 50: 'broccoli', 51: 'carrot', 52: 'hot dog', 53: 'pizza', 54: 'donut', 55: 'cake', 56: 'chair', 57: 'couch', 58: 'potted plant', 59: 'bed', 60: 'dining table', 61: 'toilet', 62: 'tv', 63: 'laptop', 64: 'mouse', 65: 'remote', 66: 'keyboard', 67: 'cell phone', 68: 'microwave', 69: 'oven', 70: 'toaster', 71: 'sink', 72: 'refrigerator', 73: 'book', 74: 'clock', 75: 'vase', 76: 'scissors', 77: 'teddy bear', 78: 'hair drier', 79: 'toothbrush'}
+obb: None
+orig_img: array([[[ 22,  16,  19],
+        [ 21,  15,  18],
+        [ 22,  16,  19],
+        ...,
+        [ 23,   9,   7],
+        [ 23,   9,   7],
+        [ 23,   9,   7]],
+
+       [[ 21,  15,  18],
+        [ 20,  14,  17],
+        [ 21,  15,  18],
+        ...,
+        [ 23,   9,   7],
+        [ 23,   9,   7],
+        [ 23,   9,   7]],
+
+       [[ 20,  14,  17],
+        [ 19,  13,  16],
+        [ 20,  14,  17],
+        ...,
+        [ 23,   9,   7],
+        [ 23,   9,   7],
+        [ 23,   9,   7]],
+
+       ...,
+
+       [[105, 131,  68],
+        [105, 131,  68],
+        [105, 131,  68],
+        ...,
+        [ 85, 106,  51],
+        [ 85, 106,  51],
+        [ 85, 106,  51]],
+
+       [[105, 131,  68],
+        [105, 131,  68],
+        [105, 131,  68],
+        ...,
+        [ 85, 106,  51],
+        [ 85, 106,  51],
+        [ 85, 106,  51]],
+
+       [[105, 131,  68],
+        [105, 131,  68],
+        [105, 131,  68],
+        ...,
+        [ 85, 106,  51],
+        [ 85, 106,  51],
+        [ 85, 106,  51]]], shape=(720, 1280, 3), dtype=uint8)
+orig_shape: (720, 1280)
+path: 'D:\\YOLO\\HuynhNgocThang_YoloObjectDetectionInBadminton\\PART01_Introdution\\RawData\\ShortBadmintonVideo_30fps.mp4'
+probs: None
+save_dir: 'D:\\YOLO\\HuynhNgocThang_YoloObjectDetectionInBadminton\\runs\\detect\\predict'    
+speed: {'preprocess': 5.737600000429666, 'inference': 77.63189999968745, 'postprocess': 6.6231999999217805}, ultralytics.engine.results.Results object with attributes:
+
+boxes: ultralytics.engine.results.Boxes object
+keypoints: None
+masks: None
+names: {0: 'person', 1: 'bicycle', 2: 'car', 3: 'motorcycle', 4: 'airplane', 5: 'bus', 6: 'train', 7: 'truck', 8: 'boat', 9: 'traffic light', 10: 'fire hydrant', 11: 'stop sign', 12: 'parking meter', 13: 'bench', 14: 'bird', 15: 'cat', 16: 'dog', 17: 'horse', 18: 'sheep', 19: 'cow', 20: 'elephant', 21: 'bear', 22: 'zebra', 23: 'giraffe', 24: 'backpack', 25: 'umbrella', 26: 'handbag', 27: 'tie', 28: 'suitcase', 29: 'frisbee', 30: 'skis', 31: 'snowboard', 32: 'sports ball', 33: 'kite', 34: 'baseball bat', 35: 'baseball glove', 36: 'skateboard', 37: 'surfboard', 38: 'tennis racket', 39: 'bottle', 40: 'wine glass', 41: 'cup', 42: 'fork', 43: 'knife', 44: 'spoon', 45: 'bowl', 46: 'banana', 47: 'apple', 48: 'sandwich', 49: 'orange', 50: 'broccoli', 51: 'carrot', 52: 'hot dog', 53: 'pizza', 54: 'donut', 55: 'cake', 56: 'chair', 57: 'couch', 58: 'potted plant', 59: 'bed', 60: 'dining table', 61: 'toilet', 62: 'tv', 63: 'laptop', 64: 'mouse', 65: 'remote', 66: 'keyboard', 67: 'cell phone', 68: 'microwave', 69: 'oven', 70: 'toaster', 71: 'sink', 72: 'refrigerator', 73: 'book', 74: 'clock', 75: 'vase', 76: 'scissors', 77: 'teddy bear', 78: 'hair drier', 79: 'toothbrush'}
+obb: None
+orig_img: array([[[ 22,  16,  19],
+        [ 21,  15,  18],
+        [ 22,  16,  19],
+        ...,
+        [ 23,   9,   7],
+        [ 23,   9,   7],
+        [ 23,   9,   7]],
+
+       [[ 21,  15,  18],
+        [ 20,  14,  17],
+        [ 21,  15,  18],
+        ...,
+        [ 23,   9,   7],
+        [ 23,   9,   7],
+        [ 23,   9,   7]],
+
+       [[ 20,  14,  17],
+        [ 19,  13,  16],
+        [ 20,  14,  17],
+        ...,
+        [ 23,   9,   7],
+        [ 23,   9,   7],
+        [ 23,   9,   7]],
+
+       ...,
+
+       [[105, 131,  68],
+        [105, 131,  68],
+        [105, 131,  68],
+        ...,
+        [ 85, 106,  51],
+        [ 85, 106,  51],
+        [ 85, 106,  51]],
+
+       [[105, 131,  68],
+        [105, 131,  68],
+        [105, 131,  68],
+        ...,
+        [ 85, 106,  51],
+        [ 85, 106,  51],
+        [ 85, 106,  51]],
+
+       [[105, 131,  68],
+        [105, 131,  68],
+        [105, 131,  68],
+        ...,
+        [ 85, 106,  51],
+        [ 85, 106,  51],
+        [ 85, 106,  51]]], shape=(720, 1280, 3), dtype=uint8)
+orig_shape: (720, 1280)
+path: 'D:\\YOLO\\HuynhNgocThang_YoloObjectDetectionInBadminton\\PART01_Introdution\\RawData\\ShortBadmintonVideo_30fps.mp4'
+probs: None
+save_dir: 'D:\\YOLO\\HuynhNgocThang_YoloObjectDetectionInBadminton\\runs\\detect\\predict'    
+speed: {'preprocess': 4.52210000003106, 'inference': 75.09740000023157, 'postprocess': 11.10889999927167}, ultralytics.engine.results.Results object with attributes:
+
+boxes: ultralytics.engine.results.Boxes object
+keypoints: None
+masks: None
+names: {0: 'person', 1: 'bicycle', 2: 'car', 3: 'motorcycle', 4: 'airplane', 5: 'bus', 6: 'train', 7: 'truck', 8: 'boat', 9: 'traffic light', 10: 'fire hydrant', 11: 'stop sign', 12: 'parking meter', 13: 'bench', 14: 'bird', 15: 'cat', 16: 'dog', 17: 'horse', 18: 'sheep', 19: 'cow', 20: 'el
+ultralytics.engine.results.Boxes object with attributes:
+
+cls: tensor([0.], device='cuda:0')
+conf: tensor([0.9088], device='cuda:0')
+data: tensor([[601.9029, 288.4311, 711.7232, 589.3368,   0.9088,   0.0000]], device='cuda:0') 
+id: None
+is_track: False
+orig_shape: (720, 1280)
+shape: torch.Size([1, 6])
+xywh: tensor([[656.8130, 438.8839, 109.8203, 300.9057]], device='cuda:0')
+xywhn: tensor([[0.5131, 0.6096, 0.0858, 0.4179]], device='cuda:0')
+xyxy: tensor([[601.9029, 288.4311, 711.7232, 589.3368]], device='cuda:0')
+xyxyn: tensor([[0.4702, 0.4006, 0.5560, 0.8185]], device='cuda:0')
+ultralytics.engine.results.Boxes object with attributes:
+
+cls: tensor([0.], device='cuda:0')
+conf: tensor([0.8909], device='cuda:0')
+data: tensor([[722.5089, 110.4044, 839.9934, 329.9065,   0.8909,   0.0000]], device='cuda:0') 
+id: None
+is_track: False
+orig_shape: (720, 1280)
+shape: torch.Size([1, 6])
+xywh: tensor([[781.2512, 220.1555, 117.4845, 219.5021]], device='cuda:0')
+xywhn: tensor([[0.6104, 0.3058, 0.0918, 0.3049]], device='cuda:0')
+xyxy: tensor([[722.5089, 110.4044, 839.9934, 329.9065]], device='cuda:0')
+xyxyn: tensor([[0.5645, 0.1533, 0.6562, 0.4582]], device='cuda:0')
+ultralytics.engine.results.Boxes object with attributes:
+
+cls: tensor([0.], device='cuda:0')
+conf: tensor([0.8780], device='cuda:0')
+data: tensor([[542.1306, 205.9147, 665.0454, 503.7962,   0.8780,   0.0000]], device='cuda:0') 
+id: None
+is_track: False
+orig_shape: (720, 1280)
+shape: torch.Size([1, 6])
+xywh: tensor([[603.5880, 354.8554, 122.9148, 297.8815]], device='cuda:0')
+xywhn: tensor([[0.4716, 0.4929, 0.0960, 0.4137]], device='cuda:0')
+xyxy: tensor([[542.1306, 205.9147, 665.0454, 503.7962]], device='cuda:0')
+xyxyn: tensor([[0.4235, 0.2860, 0.5196, 0.6997]], device='cuda:0')
+ultralytics.engine.results.Boxes object with attributes:
+
+cls: tensor([0.], device='cuda:0')
+conf: tensor([0.8717], device='cuda:0')
+data: tensor([[600.0195,  79.6689, 688.1923, 273.2107,   0.8717,   0.0000]], device='cuda:0') 
+id: None
+is_track: False
+orig_shape: (720, 1280)
+shape: torch.Size([1, 6])
+xywh: tensor([[644.1059, 176.4398,  88.1727, 193.5418]], device='cuda:0')
+xywhn: tensor([[0.5032, 0.2451, 0.0689, 0.2688]], device='cuda:0')
+xyxy: tensor([[600.0195,  79.6689, 688.1923, 273.2107]], device='cuda:0')
+xyxyn: tensor([[0.4688, 0.1107, 0.5377, 0.3795]], device='cuda:0')
+ultralytics.engine.results.Boxes object with attributes:
+
+cls: tensor([0.], device='cuda:0')
+conf: tensor([0.7906], device='cuda:0')
+data: tensor([[613.4491,   0.0000, 664.3090,  66.1670,   0.7906,   0.0000]], device='cuda:0') 
+id: None
+is_track: False
+orig_shape: (720, 1280)
+shape: torch.Size([1, 6])
+xywh: tensor([[638.8790,  33.0835,  50.8599,  66.1670]], device='cuda:0')
+xywhn: tensor([[0.4991, 0.0459, 0.0397, 0.0919]], device='cuda:0')
+xyxy: tensor([[613.4491,   0.0000, 664.3090,  66.1670]], device='cuda:0')
+xyxyn: tensor([[0.4793, 0.0000, 0.5190, 0.0919]], device='cuda:0')
+ultralytics.engine.results.Boxes object with attributes:
+
+cls: tensor([0.], device='cuda:0')
+conf: tensor([0.7298], device='cuda:0')
+data: tensor([[9.1765e+02, 0.0000e+00, 9.8099e+02, 6.2850e+01, 7.2979e-01, 0.0000e+00]], device='cuda:0')
+id: None
+is_track: False
+orig_shape: (720, 1280)
+shape: torch.Size([1, 6])
+xywh: tensor([[949.3202,  31.4248,  63.3391,  62.8495]], device='cuda:0')
+xywhn: tensor([[0.7417, 0.0436, 0.0495, 0.0873]], device='cuda:0')
+xyxy: tensor([[917.6506,   0.0000, 980.9897,  62.8495]], device='cuda:0')
+xyxyn: tensor([[0.7169, 0.0000, 0.7664, 0.0873]], device='cuda:0')
+ultralytics.engine.results.Boxes object with attributes:
+
+cls: tensor([0.], device='cuda:0')
+conf: tensor([0.5982], device='cuda:0')
+data: tensor([[308.1116,   0.0000, 357.6208,  65.6822,   0.5982,   0.0000]], device='cuda:0') 
+id: None
+is_track: False
+orig_shape: (720, 1280)
+shape: torch.Size([1, 6])
+xywh: tensor([[332.8662,  32.8411,  49.5093,  65.6822]], device='cuda:0')
+xywhn: tensor([[0.2601, 0.0456, 0.0387, 0.0912]], device='cuda:0')
+xyxy: tensor([[308.1116,   0.0000, 357.6208,  65.6822]], device='cuda:0')
+xyxyn: tensor([[0.2407, 0.0000, 0.2794, 0.0912]], device='cuda:0')
+ultralytics.engine.results.Boxes object with attributes:
+
+cls: tensor([38.], device='cuda:0')
+conf: tensor([0.4242], device='cuda:0')
+data: tensor([[7.1020e+02, 1.5249e+02, 7.2610e+02, 1.8293e+02, 4.2417e-01, 3.8000e+01]], device='cuda:0')
+id: None
+is_track: False
+orig_shape: (720, 1280)
+shape: torch.Size([1, 6])
+xywh: tensor([[718.1501, 167.7129,  15.9084,  30.4407]], device='cuda:0')
+xywhn: tensor([[0.5611, 0.2329, 0.0124, 0.0423]], device='cuda:0')
+xyxy: tensor([[710.1959, 152.4925, 726.1043, 182.9332]], device='cuda:0')
+xyxyn: tensor([[0.5548, 0.2118, 0.5673, 0.2541]], device='cuda:0')
+ultralytics.engine.results.Boxes object with attributes:
+
+cls: tensor([38.], device='cuda:0')
+conf: tensor([0.3424], device='cuda:0')
+data: tensor([[6.8510e+02, 4.4688e+02, 7.0831e+02, 4.9136e+02, 3.4240e-01, 3.8000e+01]], device='cuda:0')
+id: None
+is_track: False
+orig_shape: (720, 1280)
+shape: torch.Size([1, 6])
+xywh: tensor([[696.7040, 469.1191,  23.2136,  44.4727]], device='cuda:0')
+xywhn: tensor([[0.5443, 0.6516, 0.0181, 0.0618]], device='cuda:0')
+xyxy: tensor([[685.0972, 446.8828, 708.3108, 491.3555]], device='cuda:0')
+xyxyn: tensor([[0.5352, 0.6207, 0.5534, 0.6824]], device='cuda:0')
+Total script time: 305.51 seconds
+(.venv) PS D:\YOLO\HuynhNgocThang_YoloObjectDetectionInBadminton>

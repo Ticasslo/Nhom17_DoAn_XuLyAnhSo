@@ -1,0 +1,26 @@
+# Custom ByteTrack Configuration for YOLO Built-in Tracking
+# Dựa trên params từ code hiện tại để giữ track ID ổn định hơn
+
+# Tracker type (không được thay đổi)
+tracker_type: bytetrack
+
+# Thresholds cho tracking
+track_high_thresh: 0.6 # Confidence threshold để tạo track mới (tăng từ 0.5 để khó tạo track mới, giữ ID ổn định)
+track_low_thresh: 0.1 # Threshold cho second association (giữ mặc định)
+new_track_thresh: 0.6 # Threshold để initialize track mới (tăng từ 0.5 để khó tạo track mới)
+
+# Buffer và matching
+track_buffer: 150 # Số frames giữ track khi mất detection (tăng từ 70 để giữ track lâu hơn)
+match_thresh: 0.7 # IoU threshold để match tracks (tăng từ 0.6 để match chặt chẽ hơn, tránh đổi ID)
+
+# Fuse score
+fuse_score: True # Fuse confidence scores với IoU distances khi matching
+
+# Global Motion Compensation (GMC) - không dùng cho ByteTrack
+gmc_method: None
+
+# ReID settings (không dùng cho ByteTrack, chỉ BoT-SORT)
+proximity_thresh: 0.5
+appearance_thresh: 0.25
+with_reid: False
+model: auto

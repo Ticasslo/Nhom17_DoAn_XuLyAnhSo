@@ -1,0 +1,42 @@
+# Raw video time: 53s || 30fps || 1615 Frame
+# Predict 01: yolov8m.pt + GPU. Normal condition - 1615 Frame. Time: 290.07 (Prediction time) - 305.51 (Scripts time)
+# Predict 02: yolo8m.pt + GPU. Normal condition - 1615 Frame. Time: 278.97 (Prediction time) - 283.18 (Scripts time)
+# Predict 03: yolo8m.pt + GPU. Normal condition - 1615 Frame. Time: 270.98 (Prediction time) - 274.37 (Scripts time)
+# Predict 04: yolov8m.pt + GPU. Normal condition - 1615 Frame. Time: 268.94 (Prediction time) - 285.13 (Scripts time)
+# Predict 05: yolov8m.pt + GPU. Normal condition - 1615 Frame. Time: 282.34 (Prediction time) - 302.14 (Scripts time)
+# Predict 06: yolo8m.pt + GPU. Normal condition - 1615 Frame. Time: 282.20 (Prediction time) - 285.45 (Scripts time)
+
+"""
+Linear
+0. Start
+1. Grab frame
+2. Object detection
+3. Object tracking
+4. Display frame -> Back to 1
+
+Batch
+0. Start
+1. Grab frame
+2. Add to frame batch (for ex 2 images)
+2.1 Is batch size == 2 . Yes -> Go to 3
+2.2 Is batch size == 2 . No -> Back to 1
+3. Object detection (batch of 2 images)
+4. Object tracking
+5. Display frame -> Back to 1
+"""
+
+Multithreading
+Một Thread 01 cho lấy frame (có hàm get frame đưa vào frame buffer)
+Một Thread 02 cho object detection (có hàm get frame để lấy frame từ frame buffer do thread 1 và hàm object detection đưa vào detection buffer)
+Một Thread 03 cho object tracking (có hàm object detection lấy từ detection buffer do thread 2 và object tracking đưa vào tracking buffer)
+
+============================================================
+REALTIME SUMMARY:
+  Total frames processed: 807
+  Total objects detected: 5736
+  Average FPS: 12.46
+  Average latency: 93.99ms
+  Min latency: 60.30ms | Max latency: 9893.02ms
+  Total inference time: 75.85s
+  Total script time: 81.53 seconds
+============================================================
